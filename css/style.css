@@ -173,6 +173,7 @@ footer iframe { width: 20%; height: 20%;}
 footer h3 { text-align: center; font-family: 'Times New Roman', Times, serif;}
 footer a  { text-align: center;}
 footer p { text-align: left;}
+.chat{  width: 100px;border-radius: 10px;}
 
 .facebook{padding-right: 80px;padding-left: 10px; } 
 
