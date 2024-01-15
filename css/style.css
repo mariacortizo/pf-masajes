@@ -37,6 +37,7 @@ header {
 /*nav bt*/
 
 .navbar-toggler{ border: none;}
+
 .nav-item{ font-family: 'Courier New', Courier, monospace ;font-style: italic;}
 
 header nav ul li {list-style:none }
@@ -69,8 +70,8 @@ header img {width: auto ;}
 
 .sub-title {color: darkolivegreen; font-size: larger;}
 header nav ul li a {color: #000000; text-decoration: none; }
-nav ul li { display: inline-block; justify-content: space-between;  }
-
+nav ul li { display: inline-block; justify-content: end;  }
+.navbar{ justify-content: center;}
 
 
 header nav ul li a {font-size: larger;  } 
