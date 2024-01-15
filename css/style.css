@@ -98,7 +98,8 @@ header nav ul li a {font-size: larger;  }
         
  
         /*nav-servicios*/ 
- 
+ .info{background-color: darkgrey;}
+ .info1{font-size: large;}
 
  .spa{ margin-bottom: 20px;font-size: medium; }
  .bien{ margin-bottom: 20px;font-size: medium; }
