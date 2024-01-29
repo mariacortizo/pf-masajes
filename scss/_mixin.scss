@@ -1,0 +1,11 @@
+// con parametros
+@mixin sizes ($w, $h){
+width: $w ;
+height: $h;
+}
+
+//sin parametros
+@mixin tittle-secundary{
+    font-family: $font-family;
+    font-size: $sub-tit;
+}

@@ -1,0 +1,373 @@
+header {
+  background-color: beige;
+  background-image: url(../asests/spa-aroma.avif);
+  background-position: center;
+  background-size: cover;
+  min-width: auto;
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+}
+
+.navbar-toggler {
+  border-color: burlywood;
+}
+
+.nav-item {
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+.nav-link {
+  font-size: larger;
+  font-weight: 600;
+  color: black;
+}
+
+li {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.principal {
+  position: sticky;
+}
+
+h1 {
+  background-color: rgba(44, 87, 28, 0);
+  text-align: center;
+  font-weight: 700;
+  font-family: cursive;
+  padding-top: 20px;
+  padding-right: 50 px;
+  padding-left: 10px;
+}
+
+.sub-title {
+  padding-left: 30px;
+}
+
+.parrafo {
+  background-color: antiquewhite;
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+
+li {
+  font-size: medium;
+}
+
+header img {
+  width: auto;
+}
+
+.sub-title {
+  color: darkolivegreen;
+  font-size: larger;
+}
+
+header nav ul li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+nav ul li {
+  display: inline-block;
+  justify-content: left;
+}
+
+.navbar {
+  justify-content: center;
+}
+
+header nav ul li a {
+  font-size: larger;
+}
+
+.cont-img {
+  width: 500px;
+}
+
+/*nav-faciales*/
+.log-fac {
+  padding-right: 0;
+  width: 200px;
+}
+
+.face {
+  display: flex;
+  justify-content: end;
+}
+
+.inst {
+  display: flex;
+  justify-content: end;
+}
+
+.insta {
+  padding-right: 20px;
+}
+
+/*nav-corporales*/
+.log {
+  width: 120px;
+  height: 120px;
+}
+
+.btn-m {
+  background-color: antiquewhite;
+}
+
+.corporales {
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+}
+
+.reaf {
+  width: 300px;
+  padding-left: 100px;
+}
+
+.reductores {
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+}
+
+.red {
+  width: 300px;
+  padding-left: 100px;
+}
+
+.pres {
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+.preso {
+  width: 270px;
+  padding-left: 80px;
+}
+
+/*nav-servicios*/
+.info {
+  background-color: darkgrey;
+}
+
+.info1 {
+  font-size: large;
+}
+
+.spa {
+  margin-bottom: 20px;
+  font-size: medium;
+}
+
+.bien {
+  margin-bottom: 20px;
+  font-size: medium;
+}
+
+.momento {
+  margin-bottom: 20px;
+  font-size: medium;
+}
+
+.encabezado1 {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.flores {
+  margin-left: 50px;
+}
+
+.tipos-trat {
+  font-size: medium;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 100px;
+}
+
+.velas {
+  width: 500px;
+  padding-top: 20px;
+}
+
+.flores {
+  padding-right: 50px;
+}
+
+.dom {
+  font-size: larger;
+}
+
+h3 {
+  padding-right: 400px;
+}
+
+.logon {
+  width: 120px;
+  height: 120px;
+}
+
+/* contacto*/
+svg.bi.bi-instagram {
+  padding-left: 40px;
+}
+
+.logc {
+  width: 120px;
+  height: 120px;
+}
+
+.consulta {
+  padding-left: 50px;
+}
+
+section {
+  padding-left: 80px;
+  background-color: bisque;
+}
+
+section h2 {
+  padding-left: 300px;
+}
+
+.espacio1 {
+  text-align: left;
+  font-size: large;
+  padding-bottom: 50px;
+  padding-top: 150px;
+  padding-right: 180px;
+}
+
+.estilo {
+  text-decoration: none;
+}
+
+.espacio {
+  color: darkslategrey;
+  font-family: cursive;
+  padding-top: 30px;
+}
+
+p {
+  color: black;
+  text-align: left;
+}
+
+.parrafo {
+  padding-top: 40px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  font-family: cursive;
+  font-size: medium;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: auto;
+}
+
+.img1 {
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+.img2 {
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+.img3 {
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+.img4 {
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+.parrafo1 {
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+.parrafo2 {
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+.parrafo3 {
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+.parrafo4 {
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+footer iframe {
+  width: 20%;
+  height: 20%;
+}
+
+footer h3 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+footer a {
+  text-align: center;
+}
+
+footer p {
+  text-align: left;
+}
+
+.chat {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.facebook {
+  padding-right: 80px;
+  padding-left: 10px;
+}
+
+.instagram {
+  padding-right: 20px;
+}
+
+/* mobile*/
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+  body {
+    background-color: aliceblue;
+  }
+}
+/* tablet */
+@media only screen and (min-width: 501px) and (max-width: 960px) {
+  body {
+    background-color: rgb(190, 221, 187);
+  }
+}
+/* desktop */
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: honeydew;
+    padding-right: 50px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

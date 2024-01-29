@@ -1,0 +1,115 @@
+.navbar-toggler{ border-color: burlywood ;}
+
+
+
+header  {
+
+     nav 
+         ul
+              li { list-style:none;  padding-right: 50px;
+               
+                   padding-left: 50px;font-size: medium; 
+                   display: inline-block; justify-content: left;
+
+                    a {color: #000000; text-decoration: none;font-size: larger}                
+
+                }
+
+   img  {width: auto ;}
+                
+    }
+
+.nav{ 
+    &--item
+    { font-family: 'Courier New', Courier, monospace ;font-style: italic;}
+
+     &--link
+    { font-size: larger; font-weight: 600;color: black;}
+
+
+}  
+
+   
+.principal { position: sticky }
+
+h1{background-color: #2c571c00;  text-align: center; font-weight: 700;
+    @include tittle-secundary;
+    
+padding-top:20px; padding-right: 50 px;padding-left: 10px;
+}
+.sub-title{ padding-left: 30px;color: darkolivegreen; font-size: larger; }
+
+.parrafo {background-color: antiquewhite;
+    padding-left: 10px;
+    padding-bottom: 20px;}
+
+
+
+
+
+
+
+.navbar{ justify-content: center; }
+
+
+
+.cont-img { width: 500px;}
+
+/*nav-faciales*/
+
+.encabezado{justify-content: center;} .log-fac{  width: 150px;justify-content: right;} .mapa{width: 150px; height: 150px;}
+.face{ display: flex;justify-content: end;}
+.inst{display: flex;justify-content: end; }
+.insta{padding-right: 20px }
+.mapa{ width: 150px;  height: 150px;}
+.direc{padding-top: 100px;}
+
+/*nav-corporales*/
+
+.log{ width: 150px;height: 150px; }
+.btn-m{ background-color: antiquewhite;}
+.corporales{ display: flex;
+            justify-content: center   ;
+            font-size: larger;}
+.reaf{ width: 300px; padding-left: 100px;}
+.reductores{ display: flex;justify-content: center;
+             font-size: larger;}
+             .red{ width: 300px; padding-left: 100px;}
+.pres{ display: flex;
+        justify-content: center;
+        font-size: larger;
+         padding-left: 0% ;padding-right: 0%;} 
+.preso{ width: 270px; padding-left: 80px;}  
+      
+ 
+        /*nav-servicios*/ 
+
+ .btn-c { padding-left: 50px; border: black;padding-bottom: 50px;
+         background-color:$color-btn ; } 
+ 
+      
+ .info{background-color: darkgrey;}
+ .info1{font-size: large;}
+
+ .spa{ margin-bottom: 20px;font-size: medium; }
+ .bien{ margin-bottom: 20px;font-size: medium; }
+ .momento{ margin-bottom: 20px;font-size: medium; }
+ .encabezado1{margin-left: 50px; margin-top: 30px;}   
+ .flores{ padding-left:  100px; padding-bottom: 50px;padding-top: 100px;}  
+ .tipos-trat{ font-size: medium;
+              margin-top: 50px;
+              margin-left: 50px;
+              margin-bottom: 100px;} 
+.velas{ width: 500px; padding-top: 20px;}   
+
+.dom{font-size: larger;}  
+h3{padding-right: 400px;} 
+.logon{@include sizes( 120px,120px)  }
+.form{ font-family: Arial, Helvetica, sans-serif; border: #000000;padding-top: 100px;padding-bottom: 50px;}
+
+/* contacto*/
+svg.bi.bi-instagram{  padding-left: 40px;}
+
+.logc{   @include sizes( 120px,120px); }
+.consulta{ padding-left: 50px;background-color: bisque;}
+
