@@ -40,7 +40,10 @@ padding-top: 30px;}
      margin-top: $m-t;
      margin-left:$m-l;
  }
- @mixin inline{
-     display: inline-block;
-     justify-content: end;
- }
+ $colors: (
+     instagram:#ce9326
+     facebook:#2929a1
+     whatsapp:#1ca51c
+ )
+ 
+ 
