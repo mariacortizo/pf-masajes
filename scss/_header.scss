@@ -28,11 +28,19 @@ background-position: center;
 h5.sub-title{ justify-content:center;padding-right: 100px;
 padding-top: 20px;}
 
-.logo-m{ height: 120px;padding-left: 30px; }
+.logo-m{ height: 150px;padding-left: 30px; 
+padding-top: 30px;}
 
 
 .fondo{ background-image: url(../asests/back1.jpg);
  
  }
     
-    
+ @mixin sizes($m-t,$m-l) {
+     margin-top: $m-t;
+     margin-left:$m-l;
+ }
+ @mixin inline{
+     display: inline-block;
+     justify-content: end;
+ }

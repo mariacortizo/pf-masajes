@@ -7,7 +7,7 @@
            font-style: italic;
              a{
                &:hover{
-                color: blueviolet;
+                color: rgba(93, 14, 161, 0.904);
         }
     }
 }
@@ -56,17 +56,14 @@ nav {
 }
 
 
-.navbar{ justify-content: center; }
+.navbar{ justify-content: center;}
 
 
 .cont-img { width: 500px;}
 /*nav-faciales*/
 
-
  
-.face{ display: flex;justify-content: end;}
-.inst{display: flex;justify-content: end; }
-.insta{padding-right: 20px }
+
 
 /*nav-corporales*/
 
@@ -89,16 +86,15 @@ nav {
  
         /*nav-servicios*/ 
 
-.mi-b{background-color: bisque;}
+.mi-b{background-color: azure;}
 
 .spa{ margin-bottom: 20px;font-size: medium; }
 .bien{ margin-bottom: 20px;font-size: medium; }
 .momento{ margin-bottom: 20px;font-size: medium; } 
-h4.encabezado1{margin-left: 50px; margin-top: 30px;}     
+h4.encabezado1{margin-left: 50px; margin-top: 30px;background-color: azure;}     
 .tipos-trat{    
 font-size: medium;
-margin-top: 50px;
-margin-left: 50px;
+@include sizes(50px, 50px);
 margin-bottom: 50px;
 padding-right: 50px;}  
 .dom{font-size: larger;}  
@@ -109,8 +105,9 @@ h3{padding-right: 400px;}
 /* contacto*/
 
 
-
+.tu-l{padding-top: 30px;}
 .consulta{ padding-left: 50px;}
 .escribe{position: relative; 
-top: 80px;left: 200px;}
+top: 80px;left: 100px;width:300px;}
+.tit-cont{padding-top: 50px;padding-bottom: 30px;}
 .contacto{background-color: bisque;}
