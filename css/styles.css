@@ -132,8 +132,7 @@ svg.bi.bi-instagram{  padding-left: 40px;}
 
 
 section{ padding-left: 80px;
-    
-    
+
 
     background-color: bisque;}
    
@@ -166,14 +165,14 @@ p{color: black;
     grid-template-columns: auto ;}
    
    
- .img1  { padding-left: 50px;
+ .descont { padding-left: 50px;
           padding-top: 30px;} 
-.img2 { padding-left: 50px;
+.facial { padding-left: 50px;
         padding-top: 30px;}    
-.img3 {padding-left: 50px;
+.piedras {padding-left: 50px;
       padding-top: 30px;}
 
-    .img4 {padding-left: 50px;
+    .relajantes {padding-left: 50px;
         padding-top: 30px;}
         .parrafo1{padding-left: 50px;padding-top: 20px;}
         .parrafo2{padding-left: 50px; padding-top: 20px}
