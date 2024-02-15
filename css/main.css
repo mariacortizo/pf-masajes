@@ -1,5 +1,25 @@
-.mi-b {
-  background-color: bisque;
+.mi-facebook {
+  background-color: blue;
+  margin-right: 10px;
+}
+.mi-facebook:hover {
+  box-shadow: 1px 1px 1px blue;
+}
+
+.mi-watsapp {
+  background-color: green;
+  margin-right: 10px;
+}
+.mi-watsapp:hover {
+  box-shadow: 1px 1px 1px green;
+}
+
+.mi-instangram {
+  background-color: orange;
+  margin-right: 10px;
+}
+.mi-instangram:hover {
+  box-shadow: 1px 1px 1px orange;
 }
 
 h1.title {
@@ -36,9 +56,10 @@ h5.sub-title {
 }
 
 .logo-m {
-  height: 150px;
+  height: 180px;
   padding-left: 30px;
   padding-top: 30px;
+  width: 180px;
 }
 
 .fondo {
@@ -89,9 +110,11 @@ nav ul li a {
 }
 
 .parrafo {
-  background-color: antiquewhite;
+  background-color: beige;
   padding-left: 10px;
   padding-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .navbar {
@@ -103,6 +126,15 @@ nav ul li a {
 }
 
 /*nav-faciales*/
+.logo-m {
+  width: 150px;
+  height: 150px;
+}
+
+h4 {
+  padding-top: 30px;
+}
+
 /*nav-corporales*/
 .corporales {
   display: flex;
@@ -143,11 +175,11 @@ nav ul li a {
   margin-left: 50px;
 }
 
-/*nav-servicios*/
-.mi-b {
-  background-color: azure;
+.btn-m {
+  color: blueviolet;
 }
 
+/*nav-servicios*/
 .spa {
   margin-bottom: 20px;
   font-size: medium;
@@ -165,8 +197,8 @@ nav ul li a {
 
 h4.encabezado1 {
   margin-left: 50px;
-  margin-top: 30px;
-  background-color: azure;
+  margin-top: 50px;
+  background-color: bisque;
 }
 
 .tipos-trat {
@@ -174,45 +206,36 @@ h4.encabezado1 {
   margin-top: 50px;
   margin-left: 50px;
   margin-bottom: 50px;
-  padding-right: 50px;
+  margin-right: 50px;
 }
 
 .dom {
   font-size: larger;
+  margin: auto;
 }
 
 h3 {
-  padding-right: 400px;
+  margin-left: 150px;
 }
 
 /* contacto*/
 .tu-l {
   padding-top: 30px;
+  padding-left: 30px;
 }
 
-.consulta {
-  padding-left: 50px;
+.container {
+  display: flex;
+  flex-direction: column;
 }
 
-.escribe {
-  position: relative;
-  top: 80px;
-  left: 100px;
-  width: 300px;
-}
-
-.tit-cont {
-  padding-top: 50px;
-  padding-bottom: 30px;
-}
-
-.contacto {
-  background-color: bisque;
+.contenido {
+  width: 100%;
 }
 
 section {
   padding-left: 80px;
-  background-color: blanchedalmond;
+  background-color: bisque;
 }
 
 section h2 {
@@ -239,74 +262,65 @@ section h2 {
 
 p {
   color: black;
-  text-align: left;
+  text-align: justify;
 }
 
-.parrafo {
-  background-color: blanchedalmond;
-  padding-top: 40px;
-  padding-right: 20px;
-  padding-bottom: 40px;
+.presentacion {
+  background-color: bisque;
   font-family: cursive;
   font-size: medium;
-  display: grid;
-  grid-template-rows: auto auto auto auto;
-  grid-template-columns: auto;
 }
 
 .descont {
-  padding-left: 100px;
-  padding-top: 30px;
+  padding-left: 80px;
+  padding-top: 50px;
 }
 
 .facial {
-  padding-left: 250px;
-  padding-top: 30px;
+  padding-left: 180px;
+  padding-top: 100px;
 }
 
 .piedras {
-  padding-left: 100px;
-  padding-top: 30px;
+  padding-left: 30%;
+  padding-top: 100px;
 }
 
 .relajantes {
-  padding-left: 250px;
-  padding-top: 30px;
+  padding-left: 10%;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .parrafo1 {
-  margin-left: 100px;
   padding-top: 20px;
+  margin-left: 30px;
 }
 
 .parrafo2 {
-  margin-left: 100px;
   padding-top: 20px;
+  margin-left: 30px;
 }
 
 .parrafo3 {
-  margin-left: 100px;
   padding-top: 20px;
+  margin-left: 30px;
 }
 
 .parrafo4 {
-  margin-left: 100px;
   padding-top: 20px;
+  margin-left: 30px;
 }
 
 .btn-r {
   padding-left: 150px;
 }
 
-footer iframe {
-  width: 20%;
-  height: 20%;
-  padding-left: 50px;
-}
-
 h3 {
   text-align: center;
   font-family: cursive;
+  margin: auto;
+  font-size: large;
 }
 
 a {
@@ -314,30 +328,37 @@ a {
 }
 
 p {
-  padding-left: 30px;
+  padding-left: 20px;
+}
+
+.la-p {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .redes {
-  display: inline-block;
-  justify-content: end;
-  margin-right: 10px;
-  padding-left: 50px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.facebook-m {
-  margin: 10px;
+.mi-facebook {
+  color: cyan;
 }
 
-.instagram-m {
-  margin: 10px;
+.mi-watsapp {
+  color: greenyellow;
 }
 
-.whatsapp-m {
-  margin: 10px;
+.mi-instagram {
+  color: orange;
+}
+
+.footer {
+  background-color: beige;
 }
 
 /* mobile*/
-@media only screen and (min-width: 300px) and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
   body {
     background-color: bisque;
   }
@@ -345,14 +366,13 @@ p {
 /* tablet */
 @media only screen and (min-width: 501px) and (max-width: 960px) {
   body {
-    background-color: beige;
+    background-color: bisque;
   }
 }
 /* desktop */
 @media only screen and (min-width: 961px) and (max-width: 1200px) {
   body {
-    background-color: beige;
-    padding-right: 50px;
+    background-color: bisque;
   }
 }
 

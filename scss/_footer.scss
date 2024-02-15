@@ -1,18 +1,16 @@
-footer iframe { width: 20%; height: 20%; 
-   padding-left: 50px;}
-    h3 { text-align: center;
-       font-family: cursive;}
+ h3{ text-align: center;
+       font-family: cursive;
+      margin: auto;font-size: large;}
 
          a  { text-align: center; }
 
-            p { padding-left: 30px;}
+            p { padding-left: 20px;font-family: cursive;}
+            .la-p{display: flex;flex-wrap: wrap ;margin-left:  50px;}
 
 
-.redes{ @include inline;  
-   margin-right: 10px;
-   padding-left: 50px;
- }
-.mi-facebook{margin: 10px;} 
- 
-.mi-instagram{margin: 10px;}
-.mi-whatsapp{margin: 10px;}
+
+.redes{display: flex;justify-content: space-evenly;}
+.mi-facebook{color: cyan;}
+.mi-watsapp{color: greenyellow}
+.mi-instagram{color:orange;}
+.footer{ background-color: beige;}

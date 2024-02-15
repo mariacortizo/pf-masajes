@@ -1,4 +1,4 @@
-.mi-b{background-color: bisque;}
+
 h1.title
 {background-color: #2c571c00; 
      text-align: center; 
@@ -15,7 +15,7 @@ padding-left:10px;
            color:darkolivegreen;
            font-size:larger;}
 
-header{background-color: bisque;}
+header{background-color:bisque;}
     
 .tu-lugar{background-image:url(../asests/fondo-nueva.jpg);
 background-size: contain;
@@ -28,22 +28,12 @@ background-position: center;
 h5.sub-title{ justify-content:center;padding-right: 100px;
 padding-top: 20px;}
 
-.logo-m{ height: 150px;padding-left: 30px; 
-padding-top: 30px;}
+.logo-m{ height: 180px;padding-left: 30px; 
+padding-top: 30px; width: 180px;}
 
 
 .fondo{ background-image: url(../asests/back1.jpg);
  
  }
     
- @mixin sizes($m-t,$m-l) {
-     margin-top: $m-t;
-     margin-left:$m-l;
- }
- $colors: (
-     instagram:#ce9326
-     facebook:#2929a1
-     whatsapp:#1ca51c
- )
- 
  

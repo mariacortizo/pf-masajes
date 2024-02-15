@@ -50,9 +50,11 @@ nav {
  { position: sticky }
 
 .parrafo 
-{background-color: antiquewhite;
+{background-color: beige;
     padding-left: 10px;
     padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -63,7 +65,8 @@ nav {
 /*nav-faciales*/
 
  
-
+.logo-m{width: 150px;height: 150px;}
+h4{padding-top: 30px;}
 
 /*nav-corporales*/
 
@@ -82,38 +85,32 @@ nav {
         font-size: larger;
     padding-left: 0% ;padding-right: 0%;} 
         .preso{ width: 270px; padding-left: 80px;}  
-  .card-m{margin-left: 50px;}      
+  .card-m{margin-left: 50px;}   
+  .btn-m{color: blueviolet;}   
  
         /*nav-servicios*/ 
 
-.mi-b{background-color: azure;}
+
 
 .spa{ margin-bottom: 20px;font-size: medium; }
 .bien{ margin-bottom: 20px;font-size: medium; }
 .momento{ margin-bottom: 20px;font-size: medium; } 
-h4.encabezado1{margin-left: 50px; margin-top: 30px;background-color: azure;}     
+h4.encabezado1{margin-left: 50px; margin-top: 50px;background-color: bisque;}     
 .tipos-trat{    
 font-size: medium;
 @include sizes(50px, 50px);
 margin-bottom: 50px;
-padding-right: 50px;}  
-.dom{font-size: larger;}  
-h3{padding-right: 400px;} 
-
+margin-right: 50px;}  
+.dom{font-size: larger; margin: auto;}  
+h3{margin-left: 150px;} 
+.vis{padding-top: 30px;}
 
 
 /* contacto*/
 
+.tu-l{padding-top: 30px;padding-left: 30px;}
 
-.tu-l{padding-top: 30px;}
-.consulta{ padding-left: 50px;}
-.escribe{position: relative; 
-top: 80px;left: 100px;width:300px;}
-.tit-cont{padding-top: 50px;padding-bottom: 30px;}
-.contacto{background-color: bisque;}
-
-
-    
+ .container{display: flex;flex-direction: column;}   
     
     
     

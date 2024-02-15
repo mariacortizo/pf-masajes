@@ -1,7 +1,9 @@
-section{ padding-left: 80px;
+.contenido{width: 100%;}
+
+section{ margin-left: 100px;
 
 
-    background-color: blanchedalmond;}
+    background-color: bisque;}
    
     
 
@@ -19,32 +21,28 @@ section h2 { padding-left: 300px;  }
      font-family: cursive;padding-top: 30px;
      }
      
+     
 p{color: black;
-    text-align: left;}
-.parrafo{
-    background-color: blanchedalmond;
-    padding-top: 40px;
-    padding-right: 20px;
-    padding-bottom: 40px;
+    text-align: justify;}
+.presentacion{background-color: bisque;
     font-family: cursive;
-    font-size: medium;
-    display: grid; 
-    grid-template-rows: auto auto auto auto; 
-    grid-template-columns: auto ;}
+    font-size: medium;}   
+.descont { padding-left:100px;
+        padding-top: 50px;} 
+.facial { padding-left: 180px;
+      padding-top: 100px;}    
+.piedras {padding-left: 30%;
+    padding-top: 100px;}
+
+.relajantes {padding-left: 10%;
+      padding-top: 50px;padding-bottom: 20px;} 
    
-   
-.descont { padding-left: 100px;
-          padding-top: 30px;} 
-.facial { padding-left: 250px;
-        padding-top: 30px;}    
-.piedras {padding-left: 100px;
-      padding-top: 30px;}
- .relajantes {padding-left: 250px;
-        padding-top: 30px;}
-.parrafo1{margin-left: 100px;padding-top: 20px;
-}
-.parrafo2 {margin-left: 100px;padding-top: 20px;}
-.parrafo3{margin-left: 100px;padding-top: 20px;}
-.parrafo4{margin-left: 100px;padding-top: 20px;}
+
+.parrafo1 {padding-top: 20px;margin-left: 30px;}
+    
+.parrafo2 {padding-top: 20px;margin-left: 30px;}
+
+.parrafo3{padding-top: 20px;   margin-left: 30px; }
+.parrafo4{padding-top: 20px;margin-left: 30px; }
 .btn-r{padding-left: 150px;}
 

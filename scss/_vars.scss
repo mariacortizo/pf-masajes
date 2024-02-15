@@ -1,2 +1,25 @@
-$color-secundario: hsla(0, 100%, 99%, 0.993)
- 
+$colors:(
+    facebook:blue,
+    watsapp:green,
+    instangram:orange,
+
+);
+@each $color, $valor_color in $colors { 
+.mi-#{$color} { 
+   
+   background-color: $valor_color;
+   margin-right: 10px;
+   
+   
+   &:hover{ 
+       box-shadow: 1px 1px 1px $valor_color;
+   }
+}
+}
+
+@mixin sizes($m-t,$m-l) {
+margin-top: $m-t;
+margin-left:$m-l;
+}
+$color-secundario: hsl(284, 14%, 85%)
+
