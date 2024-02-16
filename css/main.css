@@ -376,6 +376,9 @@ p {
   body {
     background-color: bisque;
     font-size: medium;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
   }
 }
 /* tablet */
