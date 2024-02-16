@@ -66,7 +66,7 @@ nav {
 
  
 .logo-m{width: 150px;height: 150px;}
-h4{padding-top: 30px;}
+h4{padding-top: 30px;margin-left: 15px;}
 
 /*nav-corporales*/
 
@@ -100,7 +100,7 @@ h4.encabezado1{margin-left: 50px; margin-top: 50px;background-color: bisque;}
 font-size: medium;
 @include sizes(50px, 50px);
 margin-bottom: 50px;
-margin-right: 50px; }  
+margin-right: 20px; margin-left: 10px;}  
 .dom{font-size: larger; margin: auto;}  
 h3{margin-left: 150px;} 
 .vis{padding-top: 30px;}
